@@ -5,6 +5,10 @@ body {
 h1 {
   color: darkred;
   text-align: center;
+  }
+h1:hover {
+  color: yellow;
+  text-align: center;
 }
 .assign {
   background-color: darkgray;
@@ -17,18 +21,19 @@ h1 {
   padding: 10px;
 }
 a{
- text-decoration: none; /* remove underlining on anchor tags */
- color: black; /* pick the color you want */
+ text-decoration: none; 
+ color: black; 
 }
 .assign img {
- padding: 10px; /* change this from margin to padding */
- border: 2px darkred; /* try dashed, dotted */
+ padding: 10px; 
+ border: 2px darkred; 
 }
 .assign {
- border-radius: 20px; /* curved corners */
+ border-radius: 20px; 
 }
-Explain a:hover, img:hover, h1:hover
-a:hover {
- text-decoration: none; 
- color: black;
+.assign img:hover {
+  width: 200px;
+  margin: 10px;
+  border: 2px dashed darkred;
+}
 }
